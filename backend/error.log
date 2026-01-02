@@ -1,0 +1,10 @@
+FAILED TO INIT: unterminated string literal (detected at line 54) (gemini_service.py, line 54)
+Traceback: Traceback (most recent call last):
+  File "C:\Users\BCC\Desktop\Chat Bot\backend\main.py", line 55, in <module>
+    from services.ingestion import IngestionService
+  File "C:\Users\BCC\Desktop\Chat Bot\backend\services\ingestion.py", line 4, in <module>
+    from .gemini_service import GeminiService
+  File "C:\Users\BCC\Desktop\Chat Bot\backend\services\gemini_service.py", line 54
+    1. Use the provided Context below to answer the user's question.
+                                                        ^
+SyntaxError: unterminated string literal (detected at line 54)
